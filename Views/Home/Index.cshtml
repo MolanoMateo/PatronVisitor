@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">BIENVENIDO</h1>
+   <div>
+       <h4>Crear nuevo registro</h4>
+        <a asp-area="" asp-controller="Procesadors" asp-action="CREATE">Nuevo Procesador</a>        
+        <a asp-area="" asp-controller="PlacaBases" asp-action="CREATE">Nueva Placa Base</a>
+        <a asp-area="" asp-controller="DiscoDuroes" asp-action="CREATE">Nuevo Disco Duro</a>
+        <hr />
+        <h4>Consultar registro</h4>
+        <a asp-area="" asp-controller="Procesadors" asp-action="DETAILS" asp-route-id="1">Ver Procesador</a>
+        <a asp-area="" asp-controller="PlacaBases" asp-action="DETAILS" asp-route-id="1">Ver Placa Base</a>
+        <a asp-area="" asp-controller="DiscoDuroes" asp-action="DETAILS" asp-route-id="1">Ver Disco Duro</a>
+    </div>
+</div>

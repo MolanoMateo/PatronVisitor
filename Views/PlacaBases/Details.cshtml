@@ -1,0 +1,21 @@
+﻿@model PatronVisitor.Models.PlacaBase
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Placa Base</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Model.Aceptar()
+        </dt>
+        
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Regresar</a>
+</div>
